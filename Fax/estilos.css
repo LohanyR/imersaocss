@@ -9,7 +9,7 @@
  body{
     background-image: url('https://i.pinimg.com/originals/7e/b5/32/7eb532bd5f6e786a77f4d4817d31ccff.jpg');
     background-size: auto 100vh;
-    min-height: 100vh;
+    height: 100vh;
     font-size: 10px;
   }
  
@@ -36,7 +36,7 @@
 
  header {
      display: flex;
-     height: 83vh;
+     height: 90vh;
      justify-content: center;
      align-items: center;
      
@@ -159,10 +159,17 @@
     margin-left: 2em;
   }
 
+  .sobre .avatar img{
+    height: 200px;
+    width: 200px;
+  }
+
   @media (min-width: 500px){
     .sobre .avatar img{
-     border-radius: 50%;
-     /*clip=path*/
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      /*clip=path*/
     }
   }
 
@@ -198,13 +205,14 @@
     height: 180px;
     width: 240px;
     margin-bottom: 1em;
+    margin-top: 2em;
     object-fit: cover;
     object-position: left bottom;
     /*border-radius: 0%;*/
     transition: transform 500ms; /*rotate*/
   }
 
-  .flip-card{
+  /*.flip-card{
     perspective: 100%;
 
   }
@@ -219,13 +227,6 @@
     transform: rotateY(180deg);
   }
 
-  .card-back{
-    background-color: rgba(225, 185, 233, 0.932);
-    height: 180px;
-    width: 100%;
-    transform: rotateY(180deg);
-  }
-
   .card-front,
   .card-back {
     backface-visibility: hidden;
@@ -233,6 +234,13 @@
     top: 0;
     position: absolute;
   }
+
+  .card-back{
+    background-color: rgba(225, 185, 233, 0.932);
+    height: 180px;
+    width: 100%;
+    transform: rotateY(180deg);
+  }*/
 
   .contato .icons {
     text-align: center;
