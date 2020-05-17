@@ -72,7 +72,7 @@
   }
 
  a{
-   color: #DB7093;
+   color: rgb(231, 102, 145);
    text-decoration: none;
  }
  
@@ -151,6 +151,7 @@
   }
 
   .sobre a{
+    color: rgb(224, 156, 179);
     text-decoration: underline white;
   }
 
